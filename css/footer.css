@@ -24,3 +24,39 @@ text-transform: uppercase;
     width: 264px;
     margin-top: 16px;
 }
+.footer-social-list{
+    display: flex;
+    gap:16px;
+    padding: 0;
+    margin: 0;
+}
+.footer-social-link{
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social-media {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer-social-icon {
+    fill: #fff;
+}
+.footer-container{
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+    justify-content: flex-start;
+}
+.footer-info{
+    margin-right: 120px;
+}
+.footer-social{
+    display: flex;
+    flex-direction: column;
+}
