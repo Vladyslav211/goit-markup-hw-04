@@ -6,10 +6,12 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-bg.jpg);
+    url("../images/hero-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hero-title{
@@ -36,6 +38,8 @@ margin: 48px auto 0;
 padding: 16px 32px;
 border-radius: 4px;
 border: none;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus{

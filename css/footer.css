@@ -38,25 +38,29 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-media {
     color: #fff;
     font-weight: 500;
     margin-bottom: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .footer-social-icon {
-    fill: #fff;
+    fill: #f4f4fd;
 }
 .footer-container{
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     gap: 120px;
     justify-content: flex-start;
-}
-.footer-info{
-    margin-right: 120px;
 }
 .footer-social{
     display: flex;
     flex-direction: column;
+}
+.footer-social-link:hover,
+.footer-social-link:focus{
+    background-color: #31d0aa;
 }
